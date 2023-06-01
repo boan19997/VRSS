@@ -127,11 +127,15 @@ class BookingModal extends Component {
         })
 
         if (res && res.errCode === 0) {
-            isShowLoading: false
+            this.setState({
+                isShowLoading: false
+            })
             toast.success('Booking a new appointment successed!')
             this.props.closeBookingModal()
         } else {
-            isShowLoading: false
+            this.setState({
+                isShowLoading: false
+            })
             toast.error('Booking a new appointment error!')
         }
     }
