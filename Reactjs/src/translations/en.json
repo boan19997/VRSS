@@ -1,0 +1,123 @@
+{
+    "homeheader": {
+        "speciality": "Registration Center",
+        "support": "Support",
+        "welcome": "Welcome, "
+    },
+    "banner": {
+        "title1": "Traffic Safety",
+        "title2": "Everyone's happiness, everyone",
+        "search-title": "Search registration center",
+        "child1": "Schedule a check-in",
+        "child2": "Appointment schedule",
+        "child3": "Notification",
+        "child4": "Support"
+    },
+    "menu": {
+        "admin": {
+            "manage-system": "Manage System",
+            "manage-user": "Manage Account",
+            "manage-center": "Manage Center",
+            "manage-admin": "Manage admin"
+        },
+        "center": {
+            "manage-schedule": "Manage schedule",
+            "manage-user": "Manage User Schedule"
+        }
+    },
+    "footer": {
+        "copy-right": "Phan Trung Sơn. More Infomation, please visit my profile.",
+        "click-here": "Click here"
+    },
+    "manage-user": {
+        "add": "Add a new user",
+        "email": "Email",
+        "password": "Password",
+        "full-name": "Name",
+        "phone-number": "Phone number",
+        "address": "Address",
+        "gender": "Gender",
+        "role": "Role",
+        "position": "Position",
+        "image": "Avatar",
+        "save": "Create user",
+        "edit": "Edir User",
+        "action": "Action",
+        "title-modal": {
+            "tile-add": "Create a new user",
+            "tile-edit": "Edit user",
+            "add-new": "Create new",
+            "edit": "Save changes",
+            "close": "Close"
+        }
+    },
+    "homepage": {
+        "section-center": "Registration Centers",
+        "more-info": "More Information"
+    },
+    "manage-schedule": {
+        "title": "Manage the center's appointment schedule",
+        "chose-center": "Chose Center",
+        "chose-date": "Chose Date",
+        "save-info": "Save Information"
+    },
+    "manage-registrant": {
+        "title": "Registrar Management",
+        "choose": "Choose day"
+    },
+    "user": {
+        "detail-center": {
+            "schedule": "schedule",
+            "no-schedule": "The center dose not have an appointment during this time, please choose another time!",
+            "choose": "Choose ",
+            "book-free": " and book (free)"
+        },
+        "extra-infor": {
+            "text-address": "Address of center: ",
+            "price": "PRICE: ",
+            "detail": "See detail",
+            "payment": "The registrar can pay the cost in the form of ",
+            "hiden": "Hide price list"
+        },
+        "booking-modal": {
+            "title": "Information to book a registry",
+            "fullName": "Fullname",
+            "phoneNumber": "Phone Number",
+            "email": "Email",
+            "address": "Address",
+            "reason": "License plate number, vehicle model",
+            "birthday": "Date of birth",
+            "gender": "Gender",
+            "btn-confirm": "Confirm",
+            "btn-cancel": "Cancel",
+            "priceBooking": "Free booking"
+        }
+    },
+    "admin": {
+        "manage-center": {
+            "title": "Create more information doctors",
+            "choose": "Choose center",
+            "intro": "Introductory information",
+            "infor-center": "Doctor Information",
+            "save-infor": "Save center information",
+            "create-infor": "Create center information",
+            "price": "Registration Price",
+            "payment": "Payment",
+            "province": "Province",
+            "note": "Note",
+            "choose-price": "Choose price",
+            "choose-payment": "Choose payment",
+            "choose-province": "Choose province"
+        }
+    },
+    "remedy": {
+        "title": "Successfully sent registration invoice",
+        "email": "Registrant Email",
+        "file": "Select invoice file"
+    },
+    "verify": {
+        "loading": "Loading data...",
+        "booking-success": "Appointment confirmed successfully!",
+        "booking-falied": "Appointment does not exist or has been confirmed!"
+    }
+}

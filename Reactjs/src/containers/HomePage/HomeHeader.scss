@@ -1,0 +1,218 @@
+.home-header-container {
+    height: 60px;
+    width: 100%;
+    padding: 0 40px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+
+    .home-header-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        .left-content {
+            width: 80%;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+            .header-logo {
+                height: 100%;
+                width: 170px;
+                // transform: scale(); chỉnh size hình ảnh
+                transform: scale(0.98, 0.98);
+                margin: -30px;
+            }
+
+            i {
+                font-size: 25px;
+                color: gray;
+            }
+        }
+
+    }
+
+    .center-content {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .child-content {
+            .subs-title {
+                font-weight: 400;
+                font-size: 12px;
+                color: gray;
+            }
+        }
+    }
+
+    .right-content {
+        width: 25%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        .support {
+            padding-right: 50px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+            i {
+                font-size: 15px;
+                margin-right: 5px;
+                opacity: 0.6;
+            }
+        }
+
+        .language-vi {
+            cursor: pointer;
+            opacity: 0.5;
+
+            &.active {
+                opacity: 1;
+
+                span {
+                    color: red;
+                }
+            }
+
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+
+        .language-en {
+            cursor: pointer;
+            margin: 0 10px;
+            opacity: 0.5;
+
+            &.active {
+                opacity: 1;
+
+                span {
+                    color: blue;
+                }
+            }
+
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+    }
+}
+
+.home-header-banner {
+    background-image: url('../../assets/header-background.jpeg');
+    height: 485px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+    .content-up {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0.01));
+        height: 65%;
+        padding: 45px;
+
+        .title1 {
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px #333;
+            margin-bottom: 10px;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .title2 {
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px #333;
+            color: white;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .search {
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            align-items: center;
+            padding: 10px;
+            border-radius: 25px;
+            background: #90cc90;
+            color: white;
+
+            i {
+                margin: 0 5px;
+            }
+
+            input {
+                height: 30px;
+                width: 450px;
+                background: transparent;
+                border: none;
+                outline: none;
+                font-size: 20px;
+                color: white;
+            }
+        }
+    }
+
+    .content-down {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(255, 255, 255, 0.99));
+        height: 35%;
+        padding: 0 30px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding-bottom: 10px;
+
+        .options {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+
+            .options-child {
+                width: 118px;
+                text-align: center;
+
+                .icon-child {
+                    background: white;
+                    width: 60px;
+                    padding: 10px;
+                    border-radius: 50%;
+                    height: 60px;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    i {
+                        display: flex;
+                        justify-content: center;
+                        font-size: 35px;
+                        color: #90cc90;
+                    }
+                }
+
+                .text-child {
+                    font-size: 18px;
+                    font-weight: 600;
+
+                    &:hover {
+                        color: #3ac3d9;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+
+}

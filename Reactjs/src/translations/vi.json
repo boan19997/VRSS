@@ -1,0 +1,122 @@
+{
+    "homeheader": {
+        "support": "Hỗ trợ",
+        "welcome": "Xin chào, "
+    },
+    "banner": {
+        "title1": "An toàn giao thông",
+        "title2": "hạnh phúc của mọi người, mọi nhà",
+        "search-title": "Tìm kiếm trung tâm đăng kiểm",
+        "child1": "Đặt lịch đăng kiểm",
+        "child2": "Lịch hẹn",
+        "child3": "Thông báo",
+        "child4": "Hỗ Trợ"
+    },
+    "menu": {
+        "admin": {
+            "manage-system": "Quản lý hệ thống",
+            "manage-user": "Quản lý tài khoản",
+            "manage-center": "Quản lý trung tâm",
+            "manage-admin": "Quản lý admin"
+        },
+        "center": {
+            "manage-schedule": "Quản lý lịch hẹn",
+            "manage-user": "Quản lý người đặt lịch"
+        }
+    },
+    "footer": {
+        "copy-right": "Phan Trung Sơn. Thêm thông tin, vui lòng truy cập hồ sơ của tôi.",
+        "click-here": "Bấm vào đây"
+    },
+    "manage-user": {
+        "add": "Thêm mới người dùng",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "full-name": "Tên",
+        "phone-number": "Số điện thoại",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "role": "Vai trò",
+        "position": "Chức danh",
+        "image": "Ảnh đại diện",
+        "save": "Tạo người dùng",
+        "edit": "Lưu thay đổi",
+        "action": "Thao tác",
+        "title-modal": {
+            "tile-add": "Tạo người dùng",
+            "tile-edit": "Chỉnh sửa người dùng",
+            "add-new": "Tạo mới",
+            "edit": "Lưu chỉnh sửa",
+            "close": "Đóng"
+        }
+    },
+    "homepage": {
+        "section-center": "Các trung tâm đăng kiểm",
+        "more-info": "xem thêm"
+    },
+    "manage-schedule": {
+        "title": "Quản lý lịch hẹn của trung tâm",
+        "chose-center": "Chọn trung tâm",
+        "chose-date": "Chọn ngày",
+        "save-info": "Lưu thông tin"
+    },
+    "manage-registrant": {
+        "title": "Quản lý đăng kiểm",
+        "choose": "Chọn ngày"
+    },
+    "user": {
+        "detail-center": {
+            "schedule": "Lịch đăng kiểm",
+            "no-schedule": "Trung tâm không có lịch hẹn vào thời gian này, vui lòng chọn lại thời gian!",
+            "choose": "Chọn ",
+            "book-free": " và đặt (miễn phí)"
+        },
+        "extra-infor": {
+            "text-address": "địa chỉ trung tâm: ",
+            "price": "GIÁ : ",
+            "detail": "Xem chi tiết",
+            "payment": "Người đăng kiểm có thể thanh toán bằng các hình thức ",
+            "hiden": "Ẩn chi tiết"
+        },
+        "booking-modal": {
+            "title": "Thông báo đặt lịch đăng kiểm",
+            "fullName": "Họ và tên",
+            "phoneNumber": "Số điện thoại",
+            "email": "Địa chỉ email",
+            "address": "Địa chỉ liên lạc",
+            "reason": "Biển số xe, dòng xe",
+            "birthday": "Ngày sinh",
+            "gender": "Giới tính",
+            "btn-confirm": "Xác nhận",
+            "btn-cancel": "Huỷ",
+            "priceBooking": "Miễn phí đặt lịch"
+        }
+    },
+    "admin": {
+        "manage-center": {
+            "title": "Thêm thông tin trung tâm đăng kiểm",
+            "choose": "Chọn trung tâm",
+            "intro": "Thông tin giới thiệu:",
+            "infor-center": "Thông tin trung tâm:",
+            "save-infor": "Lưu thông tin trung tâm",
+            "create-infor": "Tạo thông tin trung tâm",
+            "price": "Giá đăng kiểm",
+            "payment": "Phương thức thanh toán",
+            "province": "Tỉnh thành",
+            "note": "Ghi chú",
+            "choose-price": "Chọn giá",
+            "choose-payment": "Chọn phương thức thanh toán",
+            "choose-province": "Chọn tỉnh thành"
+        }
+    },
+    "remedy": {
+        "title": "Gửi hoá đơn đăng kiểm thành công",
+        "email": "Email người đăng kiểm",
+        "file": "Chọn tệp tin hoá đơn"
+    },
+    "verify": {
+        "loading": "Đang tải dữ liệu...",
+        "booking-success": "Xác nhận lịch hẹn thành công!",
+        "booking-falied": "Lịch hẹn không tồn tại hoặc đã được xác nhận!"
+    }
+}

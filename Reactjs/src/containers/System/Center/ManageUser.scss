@@ -1,0 +1,94 @@
+div._loading_overlay_wrapper {
+    position: unset;
+
+    ._loading_overlay_overlay {
+        z-index: 100000000;
+    }
+}
+
+.manage-patient-container {
+    .m-p-title {
+        text-align: center;
+        margin: 15px 0;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #ff2f00;
+    }
+
+    .manage-patient-body {
+        padding: 0 20px;
+
+        .choose {
+            font-weight: 600;
+        }
+
+        #TableManageUser {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #TableManageUser td,
+        #TableManageUser th {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        #TableManageUser tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #TableManageUser tr:hover {
+            background-color: #ddd;
+        }
+
+        #TableManageUser th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: #232a36;
+            color: white;
+        }
+
+        #TableManageUser button {
+            font-size: 15px;
+            padding: 3px 10px;
+            border-radius: 5px;
+            font-weight: 600;
+            opacity: 0.4;
+            color: black;
+            cursor: pointer;
+
+
+
+            &:hover {
+                opacity: 1;
+                color: white;
+            }
+        }
+
+        .bg-img-car {
+            width: 175px;
+            height: 130px;
+            background-position: center center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+            background-color: #eee;
+        }
+
+        .confirm {
+            background-color: orange !important;
+        }
+
+        .refuse {
+            margin-left: 15px;
+            background-color: red !important;
+        }
+
+        .remedy {
+            margin-left: 10px;
+        }
+    }
+}

@@ -1,0 +1,97 @@
+.login-background {
+    // background-color: green;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(252, 92, 125, 1) 0%, rgba(106, 130, 251, 1) 78%);
+
+    .login-container {
+        width: 350px;
+        border-radius: 10px;
+        background: white;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 430px;
+
+        .login-content {
+            padding: 10px;
+
+            .login-text {
+                text-align: center;
+                font-weight: 600;
+                font-size: 24px;
+                padding-top: 10px;
+            }
+
+            .login-input {
+                margin: 7px 0;
+
+                .custom-input-password {
+                    position: relative;
+
+                    i {
+                        position: absolute;
+                        right: 7px;
+                        top: 10px;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .btn-login {
+                width: 100%;
+                margin: 10px 0;
+                height: 30px;
+                outline: none;
+                border: none;
+                border-radius: 5px;
+                color: white;
+                font-size: 16px;
+                background: linear-gradient(135deg, rgba(252, 92, 125, 1) 0%, rgba(106, 130, 251, 1) 78%);
+            }
+
+            .forgot-password {
+                font-size: 12px;
+            }
+
+            .social-login {
+                display: flex;
+                font-size: 35px;
+                justify-content: center;
+                text-align: center;
+                margin-top: 10px;
+
+
+                .google {
+                    background: #EA4335;
+                    border-radius: 15px;
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    margin-right: 10px;
+                }
+
+                .facebook {
+                    background: #4285F4;
+                    border-radius: 15px;
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    /* text-align: center; */
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+
+
+.login-content {}
